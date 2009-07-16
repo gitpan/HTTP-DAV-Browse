@@ -1,6 +1,6 @@
 ---
 name: HTTP-DAV-Browse
-version: 0.02
+version: 0.03
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 abstract: browse the WebDAV tree
@@ -20,7 +20,7 @@ build_requires:
 provides:
   HTTP::DAV::Browse:
     file: lib/HTTP/DAV/Browse.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.33
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
