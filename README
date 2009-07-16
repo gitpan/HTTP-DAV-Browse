@@ -37,10 +37,9 @@ METHODS
   ls_detailed($path)
 
     For given `$path' (that is prepended by `<$self-'base_uri>>) returns
-    hash of files with filenames a keys and the details as values. Example
-    key => value pair:
+    array of hashes with file details. Example:
 
-         'SVGraph/' => {
+         {
             'baseline-relative-path' => 'trunk/SVGraph',
             'version-name' => '69',
             'version-controlled-configuration' => '<D:href>/svgraph/!svn/vcc/default</D:href>',
